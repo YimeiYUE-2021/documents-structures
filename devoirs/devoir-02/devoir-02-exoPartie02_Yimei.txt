@@ -1,0 +1,22 @@
+/
+/pdv_liste/pdv/*/name()
+/pdv_liste/pdv/ville/text()
+/pdv_liste/pdv[46]
+/pdv_liste/pdv/prix[last()]
+/pdv_liste/pdv[@id="3150005"]
+/pdv_liste/pdv[not(prix/@nom="GPL")]
+/pdv_liste/pdv/services/following-sibling::*/name()
+/pdv_liste/pdv/ville[../@cp/string()="16170"]
+/pdv_liste/pdv[ouverture/@saufjour="Lundi"]
+/pdv_liste/pdv[services/service="Relais colis"]
+/pdv_liste/pdv/services/service[ing-sibling::*[10]="Piste poids lourds"]
+/pdv_liste/pdv[rupture[@nom="SP95" ][contains(@début, 02-04")]]/ville
+/pdv_liste/pdv/fermeture[not(@*)]
+/pdv_liste/pdv/ville[text()="La Mure"][../prix/@nom="E10"]
+count(/pdv_liste/pdv)
+/pdv_liste/pdv/adresse/string-length()
+max(/pdv_liste/pdv/adresse/string-length())
+/pdv_liste/pdv[ouverture/@fin>"20:00"]
+/pdv_liste/pdv/prix/lower-case(@nom)
+/pdv_liste/pdv/replace(string(@latitude), "\.", "--")
+/pdv_liste/pdv/prix/concat(substring-after(string(@maj), " "), "T", substring-before(string(@maj), " "))

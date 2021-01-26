@@ -1,0 +1,20 @@
+/ 
+//juicer
+/juicers/juicer
+//juicer/@*
+//juicer/@*/string()
+//juicer/*
+//juicer[@type[string()="gear"]]
+//juicer[1]
+//juicer[position() = last()]
+//juicer[4]/warranty
+//juicer[cost<100.00]
+//juicer[not(image)]
+/descendant::juicer[last()]
+//juicer[2]/description/ancestor::*[last()]
+count(//*)
+//*[count(child::*)>=2]
+//*[position() = 2]
+//name/following-sibling::*[1]/name()
+//text()[string-length()>140]
+//juicer[contains(retailer, ".html")]
