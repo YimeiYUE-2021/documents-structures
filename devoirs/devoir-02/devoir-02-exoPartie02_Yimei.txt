@@ -9,9 +9,9 @@
 /pdv_liste/pdv/ville[../@cp/string()="16170"]
 /pdv_liste/pdv[ouverture/@saufjour="Lundi"]
 /pdv_liste/pdv[services/service="Relais colis"]
-/pdv_liste/pdv/services/service[ing-sibling::*[10]="Piste poids lourds"]
-/pdv_liste/pdv[rupture[@nom="SP95" ][contains(@début, 02-04")]]/ville
-/pdv_liste/pdv/fermeture[not(@*)]
+/pdv_liste/pdv/services/service[following-sibling::*[10]="Piste poids lourds"]
+/pdv_liste/pdv[rupture[@nom="SP95" ][contains(@début, "2013-02-04")]]/ville
+/pdv_liste/pdv[fermeture[not(@*)]]
 /pdv_liste/pdv/ville[text()="La Mure"][../prix/@nom="E10"]
 count(/pdv_liste/pdv)
 /pdv_liste/pdv/adresse/string-length()
