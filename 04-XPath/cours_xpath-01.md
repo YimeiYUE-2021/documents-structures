@@ -61,7 +61,7 @@ Le nœud courant désigne le nœud sur lequel on est actuellement. Son évaluati
 Voir [https://stackoverflow.com/questions/1022345/current-node-vs-context-node-in-xslt-xpath/52151497#52151497](https://stackoverflow.com/questions/1022345/current-node-vs-context-node-in-xslt-xpath/52151497#52151497)
 
 ---
-#### Axes verticaux
+#### Axes verticaux
 
 | Nom | Description |
 | --- | --- |
@@ -179,7 +179,7 @@ Il est possible de mélanger les notations abrégrées avec les notations compl�
 5. Le dernier élément `<prix>` de chaque point de vente
 6. Le point de vente dont l'ID est 3150005
 7. Les points de vente qui ne proposent pas de "GPL"
-8. Tous les noeuds frères à droite de l'élément <services>
+8. Tous les noeuds frères à droite de l'élément `<services>`
 9. La ou les ville(s) dont le code postal est 16170
 10. Les points de vente qui ne sont pas ouverts le lundi
 11. Les points de vente ouvrant le service "Relais colis"

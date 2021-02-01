@@ -1,0 +1,9 @@
+(/juicers/juicer[@type="centrifugal"])
+(/juicers/juicer[@type="centrifugal"])[last()]
+remove((/juicers/juicer[@type="centrifugal"]), 2)
+(/juicers/juicer/string(name))
+index-of((/juicers/juicer/string(name)), "Juiceman Jr.")
+(/juicers/juicer/name)[.]
+index-of((/juicers/juicer/name), "Juiceman Jr.")
+(5 to 25)
+(5 to 25)[. mod 5 eq 0]

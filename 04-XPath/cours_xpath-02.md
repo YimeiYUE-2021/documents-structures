@@ -86,9 +86,9 @@ Il est possible de comparer avec les opérateurs. C'est à dire qu'un membre de 
 ---
 ### Exercice
 
-En repartant du fichier `juicers.html`
+En repartant du fichier `juicers.xml`
 
-1. Créer une séquence contenant les `juicer` de type centrifugeuse
+1. Créer une séquence de façon explicite contenant les `juicer` de `@type` centrifugeuse
 2. Sélectionner la dernière machine (= dernier `juicer`) à partir de cette séquence
 3. Supprimer la deuxième machine de cette séquence
 4. Créer une séquence du nom des machines, la séquence doit contenir des chaînes de caractères
