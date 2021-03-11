@@ -1,0 +1,10 @@
+Transformer le document "translation.xml" au format XLIFF.
+La langue source sera le "français" et la langue target l'"allemand".
+On ne considère que ces deux langues.
+
+On se base sur le document "translation-xliff.xml" pour avoir
+une idée du rendu.
+
+Vous devez utiliser une transformation XSL.
+
+Format XLIFF : https://en.wikipedia.org/wiki/XLIFF

@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0"
+       version="2.1"
+       srcLang="fr_FR"
+       trgLang="de_DE">
+   <file id="exercice-01">
+      <unit id="u1">
+         <segment>
+            <source>Indiquer l'attribut à convertir en élément.</source>
+            <target>Attribut spezifizieren, das in ein Element konvertiert werden soll.</target>
+         </segment>
+      </unit>
+      <unit id="u2">
+         <segment>
+            <source>Nouvel élément</source>
+            <target>Neues Element</target>
+         </segment>
+      </unit>
+      <unit id="u3">
+         <segment>
+            <source>Convertit l'attribut indiqué en élément. Le nouvel élément sera
+      inséré comme premier enfant de l'élément parent de l'attribut.</source>
+            <target>Konvertiert das spezifizierte Attribut in ein Element. Das neue Element wird als erstes Kind des Elternelements des Attributs eingefügt.</target>
+         </segment>
+      </unit>
+      <unit id="u4">
+         <segment>
+            <source>Convertir un attribut en élément</source>
+            <target>Konvertiere Attribut in Element</target>
+         </segment>
+      </unit>
+      <unit id="u5">
+         <segment>
+            <source>Supprimer des commentaires</source>
+            <target>Lösche Kommentare</target>
+         </segment>
+      </unit>
+      <unit id="u6">
+         <segment>
+            <source>Supprime les commentaires que l'on trouve à l'intérieur d'un ou de plusieurs éléments.</source>
+            <target>Lösche die Kommentare, die innerhalb eines Elements oder innerhalb mehrerer Elemente gefunden wurden.</target>
+         </segment>
+      </unit>
+      <unit id="u7">
+         <segment>
+            <source>Spécifiez une expression XPath qui identifie un ou plusieurs éléments pour lesquels supprimer les commentaires.</source>
+            <target>XPath-Ausdruck eingeben, der ein Element oder mehrere Elemente identifiziert, deren Kommentare gelöscht werden sollen.</target>
+         </segment>
+      </unit>
+      <unit id="u8">
+         <segment>
+            <source>L'expression XPath qui identifie un ou plusieurs éléments pour lesquels supprimer les commentaires.</source>
+            <target>Der XPath-Ausdruck, der ein Element oder mehrere Elemente identifiziert, um deren Kommentare zu löschen.</target>
+         </segment>
+      </unit>
+      <unit id="u9">
+         <segment>
+            <source>Fragments</source>
+            <target>Fragmente</target>
+         </segment>
+      </unit>
+      <unit id="u10">
+         <segment>
+            <source>Fragment XML</source>
+            <target>XML-Fragment</target>
+         </segment>
+      </unit>
+      <unit id="u11">
+         <segment>
+            <source>Attribut cible</source>
+            <target>Zielattribut</target>
+         </segment>
+      </unit>
+      <unit id="u12">
+         <segment>
+            <source>Rechercher / Remplacer</source>
+            <target>Suchen / Ersetzen</target>
+         </segment>
+      </unit>
+      <unit id="u13">
+         <segment>
+            <source>Spécifier l'attribut/les attributs à supprimer.</source>
+            <target>Zu löschende Attribut(e) spezifizieren.</target>
+         </segment>
+      </unit>
+      <unit id="u14">
+         <segment>
+            <source>Le nom de l’attribut. Les expressions XPath sont autorisées.\nExemples: title, title | href, href[starts-with(., 'https://')]</source>
+            <target>Der Attributname. XPath-Ausdrücke sind zulässig.\nBeispiele: Titel, Titel | href, href[starts-with(., 'https://')]</target>
+         </segment>
+      </unit>
+      <unit id="u15">
+         <segment>
+            <source>Le nom ou le chemin d'accès qui identifie l'élément parent de l'attribut.</source>
+            <target>Der Name oder der Pfad, der das Elternelement des Attributs bezeichnet.</target>
+         </segment>
+      </unit>
+      <unit id="u16">
+         <segment>
+            <source>Insérer un élément</source>
+            <target>Element einfügen</target>
+         </segment>
+      </unit>
+      <unit id="u17">
+         <segment>
+            <source>Renommer un élément</source>
+            <target>Element umbenennen</target>
+         </segment>
+      </unit>
+      <unit id="u18">
+         <segment>
+            <source>Remplacer la valeur de l'attribut</source>
+            <target>In Attributwert ersetzen</target>
+         </segment>
+      </unit>
+      <unit id="u19">
+         <segment>
+            <source>Recherche un fragment de texte donnée dans une valeur d'attribut et le remplace par un nouveau.</source>
+            <target>Sucht nach einem gegebenem Textfragment in einem Attributwert und ersetzt dieses gegen ein neues.</target>
+         </segment>
+      </unit>
+      <unit id="u20">
+         <segment>
+            <source>Élément parent</source>
+            <target>Elternelement</target>
+         </segment>
+      </unit>
+      <unit id="u21">
+         <segment>
+            <source>Fragments</source>
+            <target>Fragmente</target>
+         </segment>
+      </unit>
+      <unit id="u22">
+         <segment>
+            <source>Indiquer l'élément parent, l'attribut à modifier et le fragment de texte à remplacer.</source>
+            <target>Elternelement, dessen zu änderndes Attribut und das zu ersetzende Textfragment spezifizieren.</target>
+         </segment>
+      </unit>
+      <unit id="u23">
+         <segment>
+            <source>Le nom local de l'élément parent.</source>
+            <target>Lokaler Name des Elternelements.</target>
+         </segment>
+      </unit>
+      <unit id="u24">
+         <segment>
+            <source>L'espace de noms de l'élément parent.</source>
+            <target>Namensraum des Elternelements.</target>
+         </segment>
+      </unit>
+      <unit id="u25">
+         <segment>
+            <source>Le nom local de l'attribut à modifier.</source>
+            <target>Lokaler Name des zu ändernden Attributs.</target>
+         </segment>
+      </unit>
+      <unit id="u26">
+         <segment>
+            <source>L'espace de noms de l'attribut à modifier.</source>
+            <target>Namensraum des zu ändernden Attributs.</target>
+         </segment>
+      </unit>
+      <unit id="u27">
+         <segment>
+            <source>Le texte à rechercher. Accepte les expressions régulières de type Perl.</source>
+            <target>Text, nach dem gesucht werden soll. Akzeptiert Perl-ähnliche übliche Ausdrücke.</target>
+         </segment>
+      </unit>
+      <unit id="u28">
+         <segment>
+            <source>Le texte de remplacement.</source>
+            <target>Text, gegen den ersetzt werden soll.</target>
+         </segment>
+      </unit>
+      <unit id="u29">
+         <segment>
+            <source>Ajouter/Modifier un attribut</source>
+            <target>Attribut hinzufügen/ändern</target>
+         </segment>
+      </unit>
+      <unit id="u30">
+         <segment>
+            <source>Ajoute un nouvel attribut ou modifie la valeur d'un attribut déjà existant.</source>
+            <target>Fügt ein neues Attribut hinzu oder ändert den Wert eines vorhandenen.</target>
+         </segment>
+      </unit>
+      <unit id="u31">
+         <segment>
+            <source>Indiquer l'élément dans lequel ajouter l'attribut, ou celui pour lequel l'attribut doit être modifié.</source>
+            <target>Das Element spezifizieren, in welches ein neues Attribut aufgenommen werden soll oder das das zu ändernde Attribut enthält.</target>
+         </segment>
+      </unit>
+      <unit id="u32">
+         <segment>
+            <source>Le nom local de l'attribut à ajouter ou modifier.</source>
+            <target>Lokaler Name des hinzuzufügenden oder zu ändernden Attributs.</target>
+         </segment>
+      </unit>
+      <unit id="u33">
+         <segment>
+            <source>L'espace de noms de l'attribut à ajouter ou modifier.</source>
+            <target>Namensraum des hinzuzufügenden oder zu ändernden Attributs.</target>
+         </segment>
+      </unit>
+      <unit id="u34">
+         <segment>
+            <source>La valeur du nouvel attribut.</source>
+            <target>Neuer Attributwert.</target>
+         </segment>
+      </unit>
+      <unit id="u35">
+         <segment>
+            <source>Mode de l'opération</source>
+            <target>Vorgehensweise</target>
+         </segment>
+      </unit>
+      <unit id="u36">
+         <segment>
+            <source>Ajouter l'attribut dans les éléments parents là où il est absent</source>
+            <target>Das Attribut in den Elternelementen hinzufügen, in denen es fehlt</target>
+         </segment>
+      </unit>
+      <unit id="u37">
+         <segment>
+            <source>Changer la valeur dans les éléments parents là où l'attribut existe déjà</source>
+            <target>Den Wert in den Elternelementen ändern, in denen das Attribut bereits vorhanden ist</target>
+         </segment>
+      </unit>
+      <unit id="u38">
+         <segment>
+            <source>Les deux</source>
+            <target>Beides</target>
+         </segment>
+      </unit>
+      <unit id="u39">
+         <segment>
+            <source>Supprimer un attribut</source>
+            <target>Attribut löschen</target>
+         </segment>
+      </unit>
+      <unit id="u40">
+         <segment>
+            <source>Supprime un ou plusieurs attribut(s).</source>
+            <target>Löscht ein oder mehr Attribute.</target>
+         </segment>
+      </unit>
+      <unit id="u41">
+         <segment>
+            <source>Le nom local de l'attribut à supprimer.</source>
+            <target>Lokaler Name des zu löschenden Attributs.</target>
+         </segment>
+      </unit>
+      <unit id="u42">
+         <segment>
+            <source>L'espace de noms de l'attribut à supprimer.</source>
+            <target>Namensraum des zu löschenden Attributs.</target>
+         </segment>
+      </unit>
+      <unit id="u43">
+         <segment>
+            <source>Supprimer un élément</source>
+            <target>Element löschen</target>
+         </segment>
+      </unit>
+      <unit id="u44">
+         <segment>
+            <source>Supprime un ou plusieurs élément(s).</source>
+            <target>Löscht ein oder mehrere Elemente.</target>
+         </segment>
+      </unit>
+      <unit id="u45">
+         <segment>
+            <source>Indiquer une expression XPath identifiant le ou les élément(s) à supprimer.</source>
+            <target>XPath Ausdruck spezifizieren, der ein oder mehrere zu löschende Elemente bezeichnet.</target>
+         </segment>
+      </unit>
+      <unit id="u46">
+         <segment>
+            <source>Éléments cibles (XPath)</source>
+            <target>Zielelemente (XPath)</target>
+         </segment>
+      </unit>
+      <unit id="u47">
+         <segment>
+            <source>L'expression XPath identifiant le ou les élément(s) à supprimer.</source>
+            <target>XPath Ausdruck, der ein oder mehrere zu löschende Elemente bezeichnet.</target>
+         </segment>
+      </unit>
+      <unit id="u48">
+         <segment>
+            <source>Supprimer le contenu d'un élément</source>
+            <target>Elementinhalt löschen</target>
+         </segment>
+      </unit>
+      <unit id="u49">
+         <segment>
+            <source>Supprime le contenu d'un ou de plusieurs élément(s).</source>
+            <target>Löscht den Inhalt eines oder mehrerer Elemente.</target>
+         </segment>
+      </unit>
+      <unit id="u50">
+         <segment>
+            <source>Indiquer une expression XPath identifiant le ou les élément(s) pour lequel/lesquels le contenu doit être supprimé.</source>
+            <target>XPath Ausdruck spezifizieren, der ein oder mehrere zu löschende Elementinhalte bezeichnet.</target>
+         </segment>
+      </unit>
+      <unit id="u51">
+         <segment>
+            <source>L'expression XPath identifiant le ou les élément(s) pour lequel/lesquels le contenu doit être supprimé.</source>
+            <target>XPath Ausdruck, der ein oder mehrere zu löschende Elementinhalte bezeichnet.</target>
+         </segment>
+      </unit>
+      <unit id="u52">
+         <segment>
+            <source>Insérer un fragment XML</source>
+            <target>XML-Fragment einfügen</target>
+         </segment>
+      </unit>
+      <unit id="u53">
+         <segment>
+            <source>Insère un fragment XML à une position spécifique.</source>
+            <target>Fügt an einem bestimmten Ort ein XML-Fragment ein.</target>
+         </segment>
+      </unit>
+      <unit id="u54">
+         <segment>
+            <source>Indiquer le fragment XML ainsi qu'une ou plusieurs position(s) où l'insérer.</source>
+            <target>XML-Fragment und ein oder mehrere Orte spezifizieren, an denen es eingefügt werden soll.</target>
+         </segment>
+      </unit>
+      <unit id="u55">
+         <segment>
+            <source>Le fragment XML à insérer.</source>
+            <target>Einzufügendes XML-Fragment.</target>
+         </segment>
+      </unit>
+      <unit id="u56">
+         <segment>
+            <source>L'expression XPath indentifiant les noeuds d'ancrage auxquels le nouveau fragment XML est relatif.</source>
+            <target>XPath-Ausdruck, der die Verankerungsknoten bezeichnet, auf die sich das neue XML-Fragment bezieht.</target>
+         </segment>
+      </unit>
+      <unit id="u57">
+         <segment>
+            <source>Position</source>
+            <target>Position</target>
+         </segment>
+      </unit>
+      <unit id="u58">
+         <segment>
+            <source>La position d'insertion relative au noeud d'ancrage.</source>
+            <target>Einfügeposition im Verhältnis zum Verankerungsknoten.</target>
+         </segment>
+      </unit>
+      <unit id="u59">
+         <segment>
+            <source>Premier enfant</source>
+            <target>Erster Nachfolger</target>
+         </segment>
+      </unit>
+      <unit id="u60">
+         <segment>
+            <source>Dernier enfant</source>
+            <target>Letzter Nachfolger</target>
+         </segment>
+      </unit>
+      <unit id="u61">
+         <segment>
+            <source>Insère un nouvel élément à une position spécifique.</source>
+            <target>Fügt ein neues Element an einem bestimmten Ort ein.</target>
+         </segment>
+      </unit>
+      <unit id="u62">
+         <segment>
+            <source>Indiquer le nouvel élément et une ou plusieurs position(s) où l'insérer.</source>
+            <target>Neues Element und ein oder mehrere Orte spezifizieren, an denen es eingefügt werden soll.</target>
+         </segment>
+      </unit>
+      <unit id="u63">
+         <segment>
+            <source>Le nom local de l'élément à insérer.</source>
+            <target>Lokaler Name des einzufügenden Elements.</target>
+         </segment>
+      </unit>
+      <unit id="u64">
+         <segment>
+            <source>L'espace de noms de l'élément à insérer.</source>
+            <target>Namensraum des einzufügenden Elements.</target>
+         </segment>
+      </unit>
+      <unit id="u65">
+         <segment>
+            <source>L'expression XPath identifiant les noeuds d'ancrage auxquels le nouvel élément est relatif.</source>
+            <target>XPath-Ausdruck, der die Verankerungsknoten bezeichnet, auf die sich das neue Element bezieht.</target>
+         </segment>
+      </unit>
+      <unit id="u66">
+         <segment>
+            <source>Renommer un attribut</source>
+            <target>Attribut umbenennen</target>
+         </segment>
+      </unit>
+      <unit id="u67">
+         <segment>
+            <source>Renomme un attribut.</source>
+            <target>Benennt ein Attribut um.</target>
+         </segment>
+      </unit>
+      <unit id="u68">
+         <segment>
+            <source>Indiquer l'élément qui contient l'attribut à renommer ainsi que le nouveau nom de l'attribut.</source>
+            <target>Das Element spezifizieren, das das umzubenennende Attribut oder den neuen Namen des Attributs enthält.</target>
+         </segment>
+      </unit>
+      <unit id="u69">
+         <segment>
+            <source>Le nom local de l'attribut à renommer.</source>
+            <target>Lokaler Name des umzubenennenden Attributs.</target>
+         </segment>
+      </unit>
+      <unit id="u70">
+         <segment>
+            <source>L'espace de noms de l'attribut à renommer.</source>
+            <target>Namensraum des umzubenennenden Attributs.</target>
+         </segment>
+      </unit>
+      <unit id="u71">
+         <segment>
+            <source>Nouveau nom local</source>
+            <target>Neuer lokaler Name</target>
+         </segment>
+      </unit>
+      <unit id="u72">
+         <segment>
+            <source>Le nouveau nom local de l'attribut.</source>
+            <target>Der neue lokale Name des Attributs.</target>
+         </segment>
+      </unit>
+      <unit id="u73">
+         <segment>
+            <source>Renomme un ou plusieurs élément(s).</source>
+            <target>Benennt ein oder mehrere Elemente um.</target>
+         </segment>
+      </unit>
+      <unit id="u74">
+         <segment>
+            <source>Indiquer une expression XPath identifiant un ou plusieurs élément(s) à renommer.</source>
+            <target>XPath Ausdruck spezifizieren, der ein oder mehrere umzubenennende Elemente bezeichnet.</target>
+         </segment>
+      </unit>
+      <unit id="u75">
+         <segment>
+            <source>L'expression XPath identifiant un ou plusieurs élément(s) à renommer.</source>
+            <target>XPath Ausdruck, der ein oder mehrere umzubenennende Elemente bezeichnet.</target>
+         </segment>
+      </unit>
+      <unit id="u76">
+         <segment>
+            <source>Le nouveau nom local des éléments ciblés.</source>
+            <target>Der neue lokale Name der Zielelemente.</target>
+         </segment>
+      </unit>
+      <unit id="u77">
+         <segment>
+            <source>Remplacer un contenu d'élément par un fragment XML</source>
+            <target>Elementinhalt gegen XML-Fragment ersetzen</target>
+         </segment>
+      </unit>
+      <unit id="u78">
+         <segment>
+            <source>Remplace le contenu d'un ou de plusieurs élément(s) par un fragment XML.</source>
+            <target>Ersetzt den Inhalt eines oder mehrerer Elemente gegen ein XML-Fragment.</target>
+         </segment>
+      </unit>
+      <unit id="u79">
+         <segment>
+            <source>Indiquer une expression XPath identifiant un ou plusieurs élément(s) pour lequel/lesquels le contenu doit être remplacé.</source>
+            <target>XPath Ausdruck spezifizieren, der ein oder mehrere zu ersetzende Elementinhalte bezeichnet.</target>
+         </segment>
+      </unit>
+      <unit id="u80">
+         <segment>
+            <source>L'expression XPath identifiant un ou plusieurs élément(s) pour lequel/lesquels le contenu doit être remplacé.</source>
+            <target>XPath Ausdruck, der ein oder mehrere zu ersetzende Elementinhalte bezeichnet.</target>
+         </segment>
+      </unit>
+      <unit id="u81">
+         <segment>
+            <source>Le fragment XML qui remplacera le contenu des éléments ciblés.</source>
+            <target>Das XML-Fragment, das den Inhalt der Zielelemente ersetzt.</target>
+         </segment>
+      </unit>
+      <unit id="u82">
+         <segment>
+            <source>Remplacer un élément par un fragment XML</source>
+            <target>Element gegen XML-Fragment ersetzen</target>
+         </segment>
+      </unit>
+      <unit id="u83">
+         <segment>
+            <source>Remplacer un ou plusieurs élément(s) par un fragment XML.</source>
+            <target>Ersetzt ein oder mehrere Elemente gegen ein XML-Fragment.</target>
+         </segment>
+      </unit>
+      <unit id="u84">
+         <segment>
+            <source>Indiquer une expression XPath identifiant un ou plusieurs éléments à remplacer.</source>
+            <target>XPath Ausdruck spezifizieren, der ein oder mehrere zu ersetzende Elemente bezeichnet.</target>
+         </segment>
+      </unit>
+      <unit id="u85">
+         <segment>
+            <source>L'expression XPath identifiant un ou plusieurs éléments à remplacer.</source>
+            <target>XPath Ausdruck, der ein oder mehrere zu ersetzende Elemente bezeichnet.</target>
+         </segment>
+      </unit>
+      <unit id="u86">
+         <segment>
+            <source>Le fragment XML qui remplacera les éléments ciblés.</source>
+            <target>Das XML-Fragment, das die Zielelemente ersetzt.</target>
+         </segment>
+      </unit>
+      <unit id="u87">
+         <segment>
+            <source>Débaliser un élement</source>
+            <target>Element auspacken</target>
+         </segment>
+      </unit>
+      <unit id="u88">
+         <segment>
+            <source>Supprime les balises d'un ou de plusieurs élément(s), mais conserve son/leur contenu.</source>
+            <target>Löscht die Tags eines oder mehrerer Elemente, aber behält deren Inhalt bei.</target>
+         </segment>
+      </unit>
+      <unit id="u89">
+         <segment>
+            <source>Indiquer une expression XPath identifiant un ou plusieurs élément(s) à débaliser.</source>
+            <target>XPath Ausdruck spezifizieren, der ein oder mehrere auszupackende Elemente bezeichnet.</target>
+         </segment>
+      </unit>
+      <unit id="u90">
+         <segment>
+            <source>L'expression XPath identifiant un ou plusieurs élément(s) à débaliser.</source>
+            <target>XPath Ausdruck, der ein oder mehrere auszupackende Elemente bezeichnet.</target>
+         </segment>
+      </unit>
+      <unit id="u91">
+         <segment>
+            <source>Baliser un élément</source>
+            <target>Element einpacken</target>
+         </segment>
+      </unit>
+      <unit id="u92">
+         <segment>
+            <source>Encadre un ou plusieurs élément(s) avec un autre élément.</source>
+            <target>Umgibt ein oder mehrere Elemente mit einem anderen.</target>
+         </segment>
+      </unit>
+      <unit id="u93">
+         <segment>
+            <source>Indiquer une expression XPath identifiant un ou plusieurs élément(s) à baliser.</source>
+            <target>XPath Ausdruck spezifizieren, der ein oder mehrere einzupackende Elemente bezeichnet.</target>
+         </segment>
+      </unit>
+      <unit id="u94">
+         <segment>
+            <source>L'expression XPath identifiant un ou plusieurs élément(s) à baliser.</source>
+            <target>XPath Ausdruck, der ein oder mehrere einzupackende Elemente bezeichnet.</target>
+         </segment>
+      </unit>
+      <unit id="u95">
+         <segment>
+            <source>Balise encadrante</source>
+            <target>Einpackelement</target>
+         </segment>
+      </unit>
+      <unit id="u96">
+         <segment>
+            <source>Le nom local de l'élément qui encadrera les éléments ciblés.</source>
+            <target>Der lokale Name des Elements, das die Zielelemente umgibt.</target>
+         </segment>
+      </unit>
+      <unit id="u97">
+         <segment>
+            <source>L'espace de noms de l'élément qui encadrera les éléments ciblés.</source>
+            <target>Der Namensraum des Elements, das die Zielelemente umgibt.</target>
+         </segment>
+      </unit>
+      <unit id="u98">
+         <segment>
+            <source>Baliser le contenu d'un élément</source>
+            <target>Elementinhalt einpacken</target>
+         </segment>
+      </unit>
+      <unit id="u99">
+         <segment>
+            <source>Encadre le contenu d'un ou de plusieurs élément(s) avec un autre élément.</source>
+            <target>Umgibt den Inhalt eines oder mehrerer Elemente mit einem anderen.</target>
+         </segment>
+      </unit>
+      <unit id="u100">
+         <segment>
+            <source>Indiquer une expression XPath identifiant un ou plusieurs élément(s) dont le contenu doit être balisé.</source>
+            <target>XPath Ausdruck spezifizieren, der ein oder mehrere einzupackende Elementinhalte bezeichnet.</target>
+         </segment>
+      </unit>
+      <unit id="u101">
+         <segment>
+            <source>L'expression XPath identifiant un ou plusieurs élément(s) dont le contenu doit être balisé.</source>
+            <target>XPath Ausdruck, der ein oder mehrere einzupackende Elementinhalte bezeichnet.</target>
+         </segment>
+      </unit>
+      <unit id="u102">
+         <segment>
+            <source>Le nom local de l'élément qui encadrera le contenu des éléments ciblés.</source>
+            <target>Der lokale Name des Elements, das die Zielelemente umgibt.</target>
+         </segment>
+      </unit>
+      <unit id="u103">
+         <segment>
+            <source>L'espace de noms de l'élément qui encadrera le contenu des éléments ciblés.</source>
+            <target>Der Namensraum des Elements, das die Zielelemente umgibt.</target>
+         </segment>
+      </unit>
+   </file>
+</xliff>

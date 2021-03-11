@@ -1,0 +1,17 @@
+Le fichier "sanisettesparis.ods" contient les informations sur les toilettes publiques parisiennes.
+Elles ont été extraites de https://opendata.paris.fr/explore/dataset/sanisettesparis
+
+Un document "ods" est lu par le programme Libre Office, il s'agit d'une archive de documents XML.
+Oxygen peut ouvrir se genre de documents "Fichier > Ouvrir".
+Une nouvelle vue "Navigateur d'archives" va s'ouvrir.
+https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/working-with-archives.html
+
+Votre objectif est d'ajouter la chaîne de caractères "Non renseigné" sur chaque saninette (= ligne)
+qui ne possède pas d'indicaiton sur son statut en colonne B. C'est à la dire que la cellule est vide.
+
+Écrire une feuille XSL pour effectuer cette modification.
+
+Marche à suivre : 
+1. Tester en mode debug sa feuille XSL sur le fichier contenant les informations
+2. Appliquer la feuille avec un scénario de transformation (https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/xslt-transformation.html#xslt-transformation)
+3. Sauvegarder et vérifier en mode graphique avec Libre Office (ou Excel).

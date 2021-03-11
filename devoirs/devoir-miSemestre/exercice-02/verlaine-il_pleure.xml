@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_minimal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_minimal.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Il pleure dans mon coeur</title>
+            <author>Paul Verlaine</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Pour le cours de documents structurés</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>https://www.poetica.fr/poeme-64/paul-verlaine-il-pleure-dans-mon-coeur/</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <lg>
+            <l>Il pleure dans mon coeur</l>
+            <l>Comme il pleut sur la ville ;</l>
+            <l>Quelle est cette langueur</l>
+            <l>Qui pénètre mon coeur ?</l>
+         </lg>
+
+         <lg>
+            <l>Ô bruit doux de la pluie</l>
+            <l>Par terre et sur les toits !</l>
+            <l>Pour un coeur qui s’ennuie,</l>
+            <l>Ô le chant de la pluie !</l>
+         </lg>
+
+         <lg>
+            <l>Il pleure sans raison</l>
+            <l>Dans ce coeur qui s’écoeure.</l>
+            <l>Quoi ! nulle trahison ?…</l>
+            <l>Ce deuil est sans raison.</l>
+         </lg>
+
+         <lg>
+            <l>C’est bien la pire peine</l>
+            <l>De ne savoir pourquoi</l>
+            <l>Sans amour et sans haine</l>
+            <l>Mon <emph>coeur</emph> a tant de peine !</l>
+         </lg>
+
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<conversion>
+    <monnaie source="euro" target="dollar">1.20</monnaie>
+    <monnaie source="euro" target="yuan">7.80</monnaie>
+    <monnaie source="euro" target="won">1350.6</monnaie>
+</conversion>

@@ -1,0 +1,26 @@
+À partir des deux fichiers "catalogue.xml" et "conversion.xml",
+vous allez devoir créer une page HTML présentant les différents
+produits avec les prix affichés selon les devises.
+Le rendu attendu est visible dans "catalogue.xhtml"
+
+
+Vous allez devoir lire à la fois le document "catalogue.xml" et "conversion.xml".
+Voir dans les liens utiles pour un article détaillé.
+
+
+Les taux de conversion sont donnés dans "conversion.xml",
+la monnaie source est toujours l'euro.
+Vous allez devoir écrire une fonction qui
+pour un montant et une devise donnés, renvoie le prix correspondant.
+Exemple : fonction(10, dollar) -> 120
+Cette fonction servira à alimenter le tableau HTML.
+Elle sera contenue dans l'espace de nom "uri:documents-structures/devoirs/eleves"
+
+Liens utiles :
+https://github.com/ruthrapr/documents-structures/blob/master/06-XSLT/cours-xslt-02.md
+
+https://www.xml.com/pub/a/2003/09/03/trxml.html
+
+https://www.saxonica.com/documentation/index.html#!functions/fn/document
+https://www.ibm.com/developerworks/library/x-tipcombxslt/index.html
+

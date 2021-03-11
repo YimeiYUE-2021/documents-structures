@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalogue.xsl"?>
+
+<ds:catalogue xmlns:ds="uri:documents-structures:devoirs-vacances">
+
+    <produit prix="100" devise="euro">Ipod Touch</produit>
+    <produit prix="570" devise="euro">Huawei Mate X2</produit>
+    <produit prix="1.10" devise="euro">croissant</produit>
+    <produit prix="65" devise="euro">XSLT Programmer's Reference</produit>
+    <produit prix="985.59" devise="euro">Samsung Galaxy s21</produit>
+
+</ds:catalogue>

@@ -1,0 +1,16 @@
+Reproduire le document suivant à l'identique,
+en encadrant les occurrences de "coeur" par la balise "<emph>".
+<l>Pour un <emph>coeur</emph> qui s’ennuie,</l>
+
+Utiliser une transformation XSL.
+
+Voir la fonction analyze-string
+https://www.saxonica.com/html/documentation/xsl-elements/analyze-string.html
+
+
+
+
+Plus d'informations sur la TEI : 
+https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html
+Il n'est pas nécessaire de lire et comprendre pour faire l'exercice !
+

@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="translation.xsl"?>
+<translation>
+    <languageList>
+        <language description="English" lang="en_US"/>
+        <language description="German" lang="de_DE"/>
+        <language description="French" lang="fr_FR"/>
+        <language description="Japanese" lang="ja_JP"/>
+        <language description="Dutch" lang="nl_NL"/>
+    </languageList>
+    <key value="xr_specify_attribute_to_convert_to_element">
+        <comment>Specify the attribute to be converted to element.</comment>
+        <val lang="en_US">Specify the attribute to be converted to element.</val>
+        <val lang="de_DE">Attribut spezifizieren, das in ein Element konvertiert werden soll.</val>
+        <val lang="fr_FR">Indiquer l'attribut à convertir en élément.</val>
+        <val lang="ja_JP">要素に変換する属性を指定します。</val>
+        <val lang="nl_NL">Geef het attribuut op dat naar een element moet worden geconverteerd.</val>
+    </key>
+    <key value="xr_new_element">
+        <comment>New Element label.</comment>
+        <val lang="en_US">New element</val>
+        <val lang="de_DE">Neues Element</val>
+        <val lang="fr_FR">Nouvel élément</val>
+        <val lang="ja_JP">新しい要素</val>
+        <val lang="nl_NL">Nieuw element</val>
+    </key>
+    <key value="xr_convert_attribute_to_element_description">
+        <comment>Description of the Convert attribute to element refactoring action.</comment>
+        <val lang="en_US">Converts the specified attribute to an element. The new element will be inserted as first child of the attribute's parent element.</val>
+        <val lang="de_DE">Konvertiert das spezifizierte Attribut in ein Element. Das neue Element wird als erstes Kind des Elternelements des Attributs eingefügt.</val>
+        <val lang="fr_FR">Convertit l'attribut indiqué en élément. Le nouvel élément sera
+      inséré comme premier enfant de l'élément parent de l'attribut.</val>
+        <val lang="ja_JP">指定された属性を要素に変換します。新しい要素が、属性の親要素の最初の子として挿入されます。</val>
+        <val lang="nl_NL">Hiermee wordt het opgegeven attribuut naar een element geconverteerd. Het nieuwe element wordt ingevoegd als eerste onderliggende item van het bovenliggende element voor het attribuut.</val>
+    </key>
+    <key value="xr_convert_attribute_to_element">
+        <comment>General refacoring action to convert an attribute to element.</comment>
+        <val lang="en_US">Convert attribute to element</val>
+        <val lang="de_DE">Konvertiere Attribut in Element</val>
+        <val lang="fr_FR">Convertir un attribut en élément</val>
+        <val lang="ja_JP">属性を要素に変換する</val>
+        <val lang="nl_NL">Attribuut converteren naar element</val>
+    </key>
+    <key value="xr_delete_comments">
+        <comment>Delete comments operation name.</comment>
+        <val lang="en_US">Delete comments</val>
+        <val lang="de_DE">Lösche Kommentare</val>
+        <val lang="fr_FR">Supprimer des commentaires</val>
+        <val lang="ja_JP">コメントの削除</val>
+        <val lang="nl_NL">Opmerkingen verwijderen</val>
+    </key>
+    <key value="xr_delete_comments_description">
+        <comment>Delete comments operation description.</comment>
+        <val lang="en_US">Deletes the comments that are found inside one or more elements.</val>
+        <val lang="de_DE">Lösche die Kommentare, die innerhalb eines Elements oder innerhalb mehrerer Elemente gefunden wurden.</val>
+        <val lang="fr_FR">Supprime les commentaires que l'on trouve à l'intérieur d'un ou de plusieurs éléments.</val>
+        <val lang="ja_JP">1つ以上の要素内にあるコメントを削除します。</val>
+        <val lang="nl_NL">Verwijdert de in één of meer elementen gevonden opmerkingen.</val>
+    </key>
+    <key value="xr_delete_comments_parameters_description">
+        <comment>Delete comments operation parameters description.</comment>
+        <val lang="en_US">Specify an XPath expression that identifies one or more elements to delete the comments from.</val>
+        <val lang="de_DE">XPath-Ausdruck eingeben, der ein Element oder mehrere Elemente identifiziert, deren Kommentare gelöscht werden sollen.</val>
+        <val lang="fr_FR">Spécifiez une expression XPath qui identifie un ou plusieurs éléments pour lesquels supprimer les commentaires.</val>
+        <val lang="ja_JP">コメントを削除するため、1つ以上の要素を識別する XPath 式を指定します。</val>
+        <val lang="nl_NL">Specificeer een XPath-expressie die één of meer elementen waaruit de opmerkingen moeten worden verwijderd identificeert.</val>
+    </key>
+    <key value="comment_ancestor_param_description">
+        <comment>Description used for the parameter representing the ancestor element of the comments to be deleted.</comment>
+        <val lang="en_US">The XPath expression that identifies one or more elements to delete the comments from.</val>
+        <val lang="de_DE">Der XPath-Ausdruck, der ein Element oder mehrere Elemente identifiziert, um deren Kommentare zu löschen.</val>
+        <val lang="fr_FR">L'expression XPath qui identifie un ou plusieurs éléments pour lesquels supprimer les commentaires.</val>
+        <val lang="ja_JP">コメントを削除するため、1つ以上の要素を識別する XPath 式。</val>
+        <val lang="nl_NL">De XPath-expressie die één of meer elementen waaruit de opmerkingen moeten worden verwijderd identificeert.</val>
+    </key>
+    <key value="xr_fragments">
+        <comment>Category for a refactoring operation.</comment>
+        <val lang="en_US">Fragments</val>
+        <val lang="de_DE">Fragmente</val>
+        <val lang="fr_FR">Fragments</val>
+        <val lang="ja_JP">フラグメント</val>
+        <val lang="nl_NL">Fragmenten</val>
+    </key>
+    <key value="xr_xml_fragment">
+        <comment>Parameter name.</comment>
+        <val lang="en_US">XML Fragment</val>
+        <val lang="de_DE">XML-Fragment</val>
+        <val lang="fr_FR">Fragment XML</val>
+        <val lang="ja_JP">XML フラグメント</val>
+        <val lang="nl_NL">XML-fragment</val>
+    </key>
+    <key value="target_attribute">
+        <comment>The name of the parameters section used to specify an attribute location.</comment>
+        <val lang="en_US">Target attribute</val>
+        <val lang="de_DE">Zielattribut</val>
+        <val lang="fr_FR">Attribut cible</val>
+        <val lang="ja_JP">ターゲット属性</val>
+        <val lang="nl_NL">Doelattribuut</val>
+    </key>
+    <key value="xr_find_replace">
+        <comment>The name of the section used to specify the parametrs for the find and replace operation.</comment>
+        <val lang="en_US">Find / Replace</val>
+        <val lang="de_DE">Suchen / Ersetzen</val>
+        <val lang="fr_FR">Rechercher / Remplacer</val>
+        <val lang="ja_JP">検索/置換</val>
+        <val lang="nl_NL">Zoeken / Vervangen</val>
+    </key>
+    <key value="xr_delete_attribute_parameters_description">
+        <comment>Delete attribute operation parameters description.</comment>
+        <val lang="en_US">Specify the attribute(s) to be deleted.</val>
+        <val lang="de_DE">Zu löschende Attribut(e) spezifizieren.</val>
+        <val lang="fr_FR">Spécifier l'attribut/les attributs à supprimer.</val>
+        <val lang="ja_JP">削除する属性を指定します。</val>
+        <val lang="nl_NL">Stel de te verwijderen attribuut of attributen in.</val>
+    </key>
+    <key value="attribute_param_description">
+        <comment>Description used for the parameter representing an attribute</comment>
+        <val lang="en_US">The attribute name. XPath expressions are allowed.\nExamples: title, title | href, href[starts-with(., 'https://')]</val>
+        <val lang="de_DE">Der Attributname. XPath-Ausdrücke sind zulässig.\nBeispiele: Titel, Titel | href, href[starts-with(., 'https://')]</val>
+        <val lang="fr_FR">Le nom de l’attribut. Les expressions XPath sont autorisées.\nExemples: title, title | href, href[starts-with(., 'https://')]</val>
+        <val lang="ja_JP">属性名。XPath 式が許可されます。\n例: タイトル, タイトル | href, href[(., 'https://') で始まる]</val>
+        <val lang="nl_NL">De attribuutnaam. XPath-expressies zijn toegestaan.\nVoorbeelden: titel, titel | href, href[begint met(., 'https://')]</val>
+    </key>
+    <key value="attribute_parent_element_param_description">
+        <comment>Description used for the parameter representing the parent element of an attribute.</comment>
+        <val lang="en_US">The name or the path that identifies the parent element of the attribute.</val>
+        <val lang="de_DE">Der Name oder der Pfad, der das Elternelement des Attributs bezeichnet.</val>
+        <val lang="fr_FR">Le nom ou le chemin d'accès qui identifie l'élément parent de l'attribut.</val>
+        <val lang="ja_JP">名称または属性の親要素を識別するパス。</val>
+        <val lang="nl_NL">De naam of het pad dat het bovenliggende element van het attribuut identificeert.</val>
+    </key>
+    <key value="xr_insert_element">
+        <comment>Insert element operation name.</comment>
+        <val lang="en_US">Insert element</val>
+        <val lang="de_DE">Element einfügen</val>
+        <val lang="fr_FR">Insérer un élément</val>
+        <val lang="ja_JP">要素の挿入</val>
+        <val lang="nl_NL">Voeg element in</val>
+    </key>
+    <key value="xr_rename_element">
+        <comment>Rename element operation name.</comment>
+        <val lang="en_US">Rename element</val>
+        <val lang="de_DE">Element umbenennen</val>
+        <val lang="fr_FR">Renommer un élément</val>
+        <val lang="ja_JP">要素の名称変更</val>
+        <val lang="nl_NL">Wijzig de naam van het element</val>
+    </key>
+    <key value="xr_replace_in_attribute_value">
+        <comment>XML Refactoring operation name.</comment>
+        <val lang="en_US">Replace in attribute value</val>
+        <val lang="de_DE">In Attributwert ersetzen</val>
+        <val lang="fr_FR">Remplacer la valeur de l'attribut</val>
+        <val lang="ja_JP">属性値における置換</val>
+        <val lang="nl_NL">In attribuutwaarde vervangen</val>
+    </key>
+    <key value="xr_replace_in_attribute_value_description">
+        <comment>Replace in attribute value operation description.</comment>
+        <val lang="en_US">Searches for a given text fragment inside an attribute value and replaces it with a new one.</val>
+        <val lang="de_DE">Sucht nach einem gegebenem Textfragment in einem Attributwert und ersetzt dieses gegen ein neues.</val>
+        <val lang="fr_FR">Recherche un fragment de texte donnée dans une valeur d'attribut et le remplace par un nouveau.</val>
+        <val lang="ja_JP">属性値内部の指定された部分テキストを検索し、新しいものに置換します。</val>
+        <val lang="nl_NL">Zoekt een bepaald tekstfragment in een attribuutwaarde en vervangt deze door een nieuwe waarde.</val>
+    </key>
+    <key value="xr_parent_element">
+        <comment>Section title in XML refactoring operations.</comment>
+        <val lang="en_US">Parent element</val>
+        <val lang="de_DE">Elternelement</val>
+        <val lang="fr_FR">Élément parent</val>
+        <val lang="ja_JP">親要素</val>
+        <val lang="nl_NL">Bovenliggend element</val>
+    </key>
+    <key value="xr_fragments">
+        <comment>Section title in XML refactoring operations.</comment>
+        <val lang="en_US">Fragments</val>
+        <val lang="de_DE">Fragmente</val>
+        <val lang="fr_FR">Fragments</val>
+        <val lang="ja_JP">フラグメント</val>
+        <val lang="nl_NL">Fragmenten</val>
+    </key>
+    <key value="xr_replace_in_attribute_value_parameters_description">
+        <comment>Replace in attribute value parameters description.</comment>
+        <val lang="en_US">Specify the parent element, its attribute to be modified, and the text fragment to be replaced.</val>
+        <val lang="de_DE">Elternelement, dessen zu änderndes Attribut und das zu ersetzende Textfragment spezifizieren.</val>
+        <val lang="fr_FR">Indiquer l'élément parent, l'attribut à modifier et le fragment de texte à remplacer.</val>
+        <val lang="ja_JP">親要素、変更するその属性、および、置換する部分テキストを指定します。</val>
+        <val lang="nl_NL">Specificeer het bovenliggende element, het te wijzigen attribuut en het te vervangen tekstfragment.</val>
+    </key>
+    <key value="xr_element_local_name_description">
+        <comment>Element local name parameter description.</comment>
+        <val lang="en_US">The local name of the parent element.</val>
+        <val lang="de_DE">Lokaler Name des Elternelements.</val>
+        <val lang="fr_FR">Le nom local de l'élément parent.</val>
+        <val lang="ja_JP">親要素のローカル名。</val>
+        <val lang="nl_NL">De lokale naam van het bovenliggende element.</val>
+    </key>
+    <key value="xr_element_namespace_description">
+        <comment>Element namespace parameter description.</comment>
+        <val lang="en_US">The namespace of the parent element.</val>
+        <val lang="de_DE">Namensraum des Elternelements.</val>
+        <val lang="fr_FR">L'espace de noms de l'élément parent.</val>
+        <val lang="ja_JP">親要素の名前空間。</val>
+        <val lang="nl_NL">De namespace van het bovenliggende element.</val>
+    </key>
+    <key value="xr_attribute_local_name_to_modify_description">
+        <comment>Attribute local name parameter description.</comment>
+        <val lang="en_US">The local name of the attribute to be modified.</val>
+        <val lang="de_DE">Lokaler Name des zu ändernden Attributs.</val>
+        <val lang="fr_FR">Le nom local de l'attribut à modifier.</val>
+        <val lang="ja_JP">変更する属性のローカル名。</val>
+        <val lang="nl_NL">De lokale naam van het te wijzigen attribuut.</val>
+    </key>
+    <key value="xr_attribute_namespace_to_modify_description">
+        <comment>Element namespace parameter description.</comment>
+        <val lang="en_US">The namespace of the attribute to be modified.</val>
+        <val lang="de_DE">Namensraum des zu ändernden Attributs.</val>
+        <val lang="fr_FR">L'espace de noms de l'attribut à modifier.</val>
+        <val lang="ja_JP">変更する属性の名前空間。</val>
+        <val lang="nl_NL">De namespace van het te wijzigen attribuut.</val>
+    </key>
+    <key value="xr_replace_in_attribute_value_find_parameter_description">
+        <comment>Find parameter description.</comment>
+        <val lang="en_US">The text for which to search. Accepts Perl-like regular expressions.</val>
+        <val lang="de_DE">Text, nach dem gesucht werden soll. Akzeptiert Perl-ähnliche übliche Ausdrücke.</val>
+        <val lang="fr_FR">Le texte à rechercher. Accepte les expressions régulières de type Perl.</val>
+        <val lang="ja_JP">検索するテキスト。Perl のような正規表現を受け入れます。</val>
+        <val lang="nl_NL">De te zoeken tekst. Accepteert Perl-achtige reguliere expressies.</val>
+    </key>
+    <key value="xr_replace_in_attribute_value_replace_with_parameter_description">
+        <comment>Replace with parameter description.</comment>
+        <val lang="en_US">The text with which to replace.</val>
+        <val lang="de_DE">Text, gegen den ersetzt werden soll.</val>
+        <val lang="fr_FR">Le texte de remplacement.</val>
+        <val lang="ja_JP">置換するテキスト。</val>
+        <val lang="nl_NL">De vervangende tekst.</val>
+    </key>
+    <key value="xr_add_change_attribute">
+        <comment>Add/Change attribute operation name.</comment>
+        <val lang="en_US">Add/Change attribute</val>
+        <val lang="de_DE">Attribut hinzufügen/ändern</val>
+        <val lang="fr_FR">Ajouter/Modifier un attribut</val>
+        <val lang="ja_JP">属性を追加/変更します</val>
+        <val lang="nl_NL">Attribuut toevoegen/wijzigen</val>
+    </key>
+    <key value="xr_add_change_attribute_description">
+        <comment>Add/Change attribute operation description.</comment>
+        <val lang="en_US">Adds a new attribute or changes the value of an existing one.</val>
+        <val lang="de_DE">Fügt ein neues Attribut hinzu oder ändert den Wert eines vorhandenen.</val>
+        <val lang="fr_FR">Ajoute un nouvel attribut ou modifie la valeur d'un attribut déjà existant.</val>
+        <val lang="ja_JP">新規属性を追加、または、既存属性の値を変更します。</val>
+        <val lang="nl_NL">Voegt een nieuw attribuut toe of wijzigt de waarde van een bestaand attribuut.</val>
+    </key>
+    <key value="xr_add_change_attribute_parameters_description">
+        <comment>Add/Change attribute operation parameters description.</comment>
+        <val lang="en_US">Specify the element in which to add a new attribute, or that contains the attribute to be modified.</val>
+        <val lang="de_DE">Das Element spezifizieren, in welches ein neues Attribut aufgenommen werden soll oder das das zu ändernde Attribut enthält.</val>
+        <val lang="fr_FR">Indiquer l'élément dans lequel ajouter l'attribut, ou celui pour lequel l'attribut doit être modifié.</val>
+        <val lang="ja_JP">新しい属性に対して追加する要素、または、変更すつ属性に含まれる要素を指定します。</val>
+        <val lang="nl_NL">Specificeer het element waarin een nieuw attribuut moet worden toegevoegd of dat het te wijzigen attribuut bevat.</val>
+    </key>
+    <key value="xr_add_change_attribute_attr_name_description">
+        <comment>Attribute name description.</comment>
+        <val lang="en_US">The local name of the attribute to be added or modified.</val>
+        <val lang="de_DE">Lokaler Name des hinzuzufügenden oder zu ändernden Attributs.</val>
+        <val lang="fr_FR">Le nom local de l'attribut à ajouter ou modifier.</val>
+        <val lang="ja_JP">追加または変更する属性のローカル名。</val>
+        <val lang="nl_NL">De lokale naam van het toe te voegen of te wijzigen attribuut.</val>
+    </key>
+    <key value="xr_add_change_attribute_attr_namespace_description">
+        <comment>Attribute namespace description.</comment>
+        <val lang="en_US">The namespace of the attribute to be added or modified.</val>
+        <val lang="de_DE">Namensraum des hinzuzufügenden oder zu ändernden Attributs.</val>
+        <val lang="fr_FR">L'espace de noms de l'attribut à ajouter ou modifier.</val>
+        <val lang="ja_JP">追加または変更する属性の名前空間。</val>
+        <val lang="nl_NL">De namespace van het toe te voegen of te wijzigen attribuut.</val>
+    </key>
+    <key value="xr_add_change_attribute_attr_value_description">
+        <comment>Attribute value description.</comment>
+        <val lang="en_US">The new attribute value.</val>
+        <val lang="de_DE">Neuer Attributwert.</val>
+        <val lang="fr_FR">La valeur du nouvel attribut.</val>
+        <val lang="ja_JP">新しい属性値。</val>
+        <val lang="nl_NL">De nieuwe attribuutwaarde.</val>
+    </key>
+    <key value="xr_add_change_attribute_operation_mode">
+        <comment>Operation mode paramater name.</comment>
+        <val lang="en_US">Operation mode</val>
+        <val lang="de_DE">Vorgehensweise</val>
+        <val lang="fr_FR">Mode de l'opération</val>
+        <val lang="ja_JP">操作モード</val>
+        <val lang="nl_NL">Bewerkingsmodus</val>
+    </key>
+    <key value="xr_add_change_attribute_attr_missing">
+        <comment>Operation mode possible value.</comment>
+        <val lang="en_US">Add the attribute in the parent elements where it is missing</val>
+        <val lang="de_DE">Das Attribut in den Elternelementen hinzufügen, in denen es fehlt</val>
+        <val lang="fr_FR">Ajouter l'attribut dans les éléments parents là où il est absent</val>
+        <val lang="ja_JP">欠落している親要素に属性を追加します。</val>
+        <val lang="nl_NL">Het attribuut aan het onderliggende element waar dit ontbreekt toevoegen</val>
+    </key>
+    <key value="xr_add_change_attribute_attr_exists">
+        <comment>Operation mode possible value.</comment>
+        <val lang="en_US">Change the value in the parent elements where the attribute already exists</val>
+        <val lang="de_DE">Den Wert in den Elternelementen ändern, in denen das Attribut bereits vorhanden ist</val>
+        <val lang="fr_FR">Changer la valeur dans les éléments parents là où l'attribut existe déjà</val>
+        <val lang="ja_JP">属性がすでに存在する親要素の値を変更します</val>
+        <val lang="nl_NL">De waarde in het onderliggende element waar het attribuut reeds bestaat wijzigen</val>
+    </key>
+    <key value="xr_add_change_attribute_both">
+        <comment>Operation mode possible value.</comment>
+        <val lang="en_US">Both</val>
+        <val lang="de_DE">Beides</val>
+        <val lang="fr_FR">Les deux</val>
+        <val lang="ja_JP">両方</val>
+        <val lang="nl_NL">Beide</val>
+    </key>
+    <key value="xr_delete_attribute">
+        <comment>Delete attribute operation name.</comment>
+        <val lang="en_US">Delete attribute</val>
+        <val lang="de_DE">Attribut löschen</val>
+        <val lang="fr_FR">Supprimer un attribut</val>
+        <val lang="ja_JP">属性を削除します</val>
+        <val lang="nl_NL">Attribuut verwijderen</val>
+    </key>
+    <key value="xr_delete_attribute_description">
+        <comment>Delete attribute operation description.</comment>
+        <val lang="en_US">Deletes one or more attributes.</val>
+        <val lang="de_DE">Löscht ein oder mehr Attribute.</val>
+        <val lang="fr_FR">Supprime un ou plusieurs attribut(s).</val>
+        <val lang="ja_JP">一つ以上の属性を削除します。</val>
+        <val lang="nl_NL">Verwijdert één of meer attributen.</val>
+    </key>
+    <key value="xr_delete_attribute_local_name_to_delete">
+        <comment>Attribute local name parameter description.</comment>
+        <val lang="en_US">The local name of the attribute to be deleted.</val>
+        <val lang="de_DE">Lokaler Name des zu löschenden Attributs.</val>
+        <val lang="fr_FR">Le nom local de l'attribut à supprimer.</val>
+        <val lang="ja_JP">削除する属性のローカル名。</val>
+        <val lang="nl_NL">De lokale naam van het te verwijderen attribuut.</val>
+    </key>
+    <key value="xr_delete_attribute_namespace_to_delete">
+        <comment>Attribute namespace parameter description.</comment>
+        <val lang="en_US">The namespace of the attribute to be deleted.</val>
+        <val lang="de_DE">Namensraum des zu löschenden Attributs.</val>
+        <val lang="fr_FR">L'espace de noms de l'attribut à supprimer.</val>
+        <val lang="ja_JP">削除する属性の名前空間。</val>
+        <val lang="nl_NL">De namespace van het te verwijderen attribuut.</val>
+    </key>
+    <key value="xr_delete_element">
+        <comment>Delete element operation name.</comment>
+        <val lang="en_US">Delete element</val>
+        <val lang="de_DE">Element löschen</val>
+        <val lang="fr_FR">Supprimer un élément</val>
+        <val lang="ja_JP">要素を削除します</val>
+        <val lang="nl_NL">Element verwijderen</val>
+    </key>
+    <key value="xr_delete_element_description">
+        <comment>Delete element operation description.</comment>
+        <val lang="en_US">Deletes one or more elements.</val>
+        <val lang="de_DE">Löscht ein oder mehrere Elemente.</val>
+        <val lang="fr_FR">Supprime un ou plusieurs élément(s).</val>
+        <val lang="ja_JP">一つ以上の要素を削除します。</val>
+        <val lang="nl_NL">Verwijdert één of meer elementen.</val>
+    </key>
+    <key value="xr_delete_element_parameters_description">
+        <comment>Delete element operation parameters description.</comment>
+        <val lang="en_US">Specify an XPath expression that identifies one or more elements to be deleted.</val>
+        <val lang="de_DE">XPath Ausdruck spezifizieren, der ein oder mehrere zu löschende Elemente bezeichnet.</val>
+        <val lang="fr_FR">Indiquer une expression XPath identifiant le ou les élément(s) à supprimer.</val>
+        <val lang="ja_JP">削除する一つ以上の要素を特定する XPath 式を指定します。</val>
+        <val lang="nl_NL">Specificeer een XPath-expressie die één of meer te verwijderen elementen identificeert.</val>
+    </key>
+    <key value="xr_target_elements">
+        <comment>Target elements parameter name.</comment>
+        <val lang="en_US">Target elements (XPath)</val>
+        <val lang="de_DE">Zielelemente (XPath)</val>
+        <val lang="fr_FR">Éléments cibles (XPath)</val>
+        <val lang="ja_JP">ターゲット要素 (XPath)</val>
+        <val lang="nl_NL">Doelelementen (XPath)</val>
+    </key>
+    <key value="xr_delete_element_xpath_param_description">
+        <comment>XPath parameter description.</comment>
+        <val lang="en_US">The XPath expression that identifies one or more elements to be deleted.</val>
+        <val lang="de_DE">XPath Ausdruck, der ein oder mehrere zu löschende Elemente bezeichnet.</val>
+        <val lang="fr_FR">L'expression XPath identifiant le ou les élément(s) à supprimer.</val>
+        <val lang="ja_JP">削除する一つ以上の要素を特定する XPath 式。</val>
+        <val lang="nl_NL">De XPath-expressie die één of meer te verwijderen elementen identificeert.</val>
+    </key>
+    <key value="xr_delete_element_content">
+        <comment>Delete element content operation name.</comment>
+        <val lang="en_US">Delete element content</val>
+        <val lang="de_DE">Elementinhalt löschen</val>
+        <val lang="fr_FR">Supprimer le contenu d'un élément</val>
+        <val lang="ja_JP">要素の内容を削除します</val>
+        <val lang="nl_NL">Elementinhoud verwijderen</val>
+    </key>
+    <key value="xr_delete_element_content_description">
+        <comment>Delete element content operation description.</comment>
+        <val lang="en_US">Deletes the content of one or more elements.</val>
+        <val lang="de_DE">Löscht den Inhalt eines oder mehrerer Elemente.</val>
+        <val lang="fr_FR">Supprime le contenu d'un ou de plusieurs élément(s).</val>
+        <val lang="ja_JP">一つ以上の要素の内容を削除します。</val>
+        <val lang="nl_NL">Verwijdert de inhoud van één of meer elementen.</val>
+    </key>
+    <key value="xr_delete_element_content_parameters_description">
+        <comment>Delete element content parameters description.</comment>
+        <val lang="en_US">Specify an XPath expression that identifies one or more elements to delete their content.</val>
+        <val lang="de_DE">XPath Ausdruck spezifizieren, der ein oder mehrere zu löschende Elementinhalte bezeichnet.</val>
+        <val lang="fr_FR">Indiquer une expression XPath identifiant le ou les élément(s) pour lequel/lesquels le contenu doit être supprimé.</val>
+        <val lang="ja_JP">内容を削除する一つ以上の要素を特定する XPath 式を指定します。</val>
+        <val lang="nl_NL">Specificeer een XPath-expressie die één of meer elementen identificeert om hun inhoud te verwijderen.</val>
+    </key>
+    <key value="xr_delete_element_content_xpath_param_description">
+        <comment>XPath parameter description.</comment>
+        <val lang="en_US">The XPath expression that identifies one or more elements to delete their content.</val>
+        <val lang="de_DE">XPath Ausdruck, der ein oder mehrere zu löschende Elementinhalte bezeichnet.</val>
+        <val lang="fr_FR">L'expression XPath identifiant le ou les élément(s) pour lequel/lesquels le contenu doit être supprimé.</val>
+        <val lang="ja_JP">内容を削除する一つ以上の要素を特定する XPath 式。</val>
+        <val lang="nl_NL">De XPath-expressie die één of meer elementen identificeert om hun inhoud te verwijderen.</val>
+    </key>
+    <key value="xr_insert_xml_fragment">
+        <comment>Insert XML fragment operation name.</comment>
+        <val lang="en_US">Insert XML fragment</val>
+        <val lang="de_DE">XML-Fragment einfügen</val>
+        <val lang="fr_FR">Insérer un fragment XML</val>
+        <val lang="ja_JP">XML フラグメントを挿入します</val>
+        <val lang="nl_NL">XML-fragment invoegen</val>
+    </key>
+    <key value="xr_insert_xml_fragment_description">
+        <comment>Insert XML fragment operation description.</comment>
+        <val lang="en_US">Inserts an XML fragment at a specific location.</val>
+        <val lang="de_DE">Fügt an einem bestimmten Ort ein XML-Fragment ein.</val>
+        <val lang="fr_FR">Insère un fragment XML à une position spécifique.</val>
+        <val lang="ja_JP">特定の位置に XML フラグメントを挿入します。</val>
+        <val lang="nl_NL">Voegt een XML-fragment op een specifieke locatie in.</val>
+    </key>    
+    <key value="xr_insert_xml_fragment_parameters_description">
+        <comment>Insert XML fragment operation parameters description.</comment>
+        <val lang="en_US">Specify the XML fragment and one or more locations where to insert it.</val>
+        <val lang="de_DE">XML-Fragment und ein oder mehrere Orte spezifizieren, an denen es eingefügt werden soll.</val>
+        <val lang="fr_FR">Indiquer le fragment XML ainsi qu'une ou plusieurs position(s) où l'insérer.</val>
+        <val lang="ja_JP">XML フラグメントおよびそれを挿入する一つ以上の位置を指定します。</val>
+        <val lang="nl_NL">Specificeer het XML-fragment en één of meer locaties waar dit moet worden ingevoegd.</val>
+    </key>
+    <key value="xr_insert_xml_fragment_param_description">
+        <comment>XML fragment parameter description.</comment>
+        <val lang="en_US">The XML fragment to be inserted.</val>
+        <val lang="de_DE">Einzufügendes XML-Fragment.</val>
+        <val lang="fr_FR">Le fragment XML à insérer.</val>
+        <val lang="ja_JP">挿入する XML フラグメント。</val>
+        <val lang="nl_NL">Het in te voegen XML-fragment.</val>
+    </key>
+    <key value="xr_insert_xml_fragment_xpath_param_description">
+        <comment>XPath parameter description.</comment>
+        <val lang="en_US">The XPath expression that identifies the anchor nodes to which the new XML fragment is relative.</val>
+        <val lang="de_DE">XPath-Ausdruck, der die Verankerungsknoten bezeichnet, auf die sich das neue XML-Fragment bezieht.</val>
+        <val lang="fr_FR">L'expression XPath indentifiant les noeuds d'ancrage auxquels le nouveau fragment XML est relatif.</val>
+        <val lang="ja_JP">新規 XML フラグメントが相対であるアンカー ノードを特定する XPath 式。</val>
+        <val lang="nl_NL">De XPath-expressie die de bij het nieuwe XML-fragment behorende ankernodes identificeert.</val>
+    </key>
+    <key value="xr_position_param">
+        <comment>Position parameter name.</comment>
+        <val lang="en_US">Position</val>
+        <val lang="de_DE">Position</val>
+        <val lang="fr_FR">Position</val>
+        <val lang="ja_JP">位置</val>
+        <val lang="nl_NL">Positie</val>
+    </key>
+    <key value="xr_position_param_description">
+        <comment>Position parameter description.</comment>
+        <val lang="en_US">The insert position relative to the anchor node.</val>
+        <val lang="de_DE">Einfügeposition im Verhältnis zum Verankerungsknoten.</val>
+        <val lang="fr_FR">La position d'insertion relative au noeud d'ancrage.</val>
+        <val lang="ja_JP">アンカー ノードに対して相対的な挿入位置。</val>
+        <val lang="nl_NL">De invoegpositie ten opzichte van de ankernode.</val>
+    </key>
+    <key value="xr_first_child">
+        <comment>First child posible value.</comment>
+        <val lang="en_US">First child</val>
+        <val lang="de_DE">Erster Nachfolger</val>
+        <val lang="fr_FR">Premier enfant</val>
+        <val lang="ja_JP">最初の子</val>
+        <val lang="nl_NL">Eerste kind</val>
+    </key>
+    <key value="xr_last_child">
+        <comment>Last child posible value.</comment>
+        <val lang="en_US">Last child</val>
+        <val lang="de_DE">Letzter Nachfolger</val>
+        <val lang="fr_FR">Dernier enfant</val>
+        <val lang="ja_JP">最後の子</val>
+        <val lang="nl_NL">Laatste kind</val>
+    </key>
+    <key value="xr_insert_element_description">
+        <comment>Insert element operation description.</comment>
+        <val lang="en_US">Inserts a new element at a specific location.</val>
+        <val lang="de_DE">Fügt ein neues Element an einem bestimmten Ort ein.</val>
+        <val lang="fr_FR">Insère un nouvel élément à une position spécifique.</val>
+        <val lang="ja_JP">特定の位置に新しい要素を挿入します。</val>
+        <val lang="nl_NL">Voegt een nieuw element op een specifieke locatie in.</val>
+    </key>
+    <key value="xr_insert_element_parameters_description">
+        <comment>Insert element operation parameters description.</comment>
+        <val lang="en_US">Specify the new element and one or more locations where to insert it.</val>
+        <val lang="de_DE">Neues Element und ein oder mehrere Orte spezifizieren, an denen es eingefügt werden soll.</val>
+        <val lang="fr_FR">Indiquer le nouvel élément et une ou plusieurs position(s) où l'insérer.</val>
+        <val lang="ja_JP">新規要素およびそれを挿入する一つ以上の位置を指定します。</val>
+        <val lang="nl_NL">Specificeer een nieuw element en één of meer locaties waar dit moet worden ingevoegd.</val>
+    </key>
+    <key value="xr_insert_element_local_name_description">
+        <comment>Element local name parameter description.</comment>
+        <val lang="en_US">The local name of the element to be inserted.</val>
+        <val lang="de_DE">Lokaler Name des einzufügenden Elements.</val>
+        <val lang="fr_FR">Le nom local de l'élément à insérer.</val>
+        <val lang="ja_JP">挿入する要素のローカル名。</val>
+        <val lang="nl_NL">De lokale naam van het in te voegen element.</val>
+    </key>
+    <key value="xr_insert_element_namespace_description">
+        <comment>Element namespace parameter description.</comment>
+        <val lang="en_US">The namespace of the element to be inserted.</val>
+        <val lang="de_DE">Namensraum des einzufügenden Elements.</val>
+        <val lang="fr_FR">L'espace de noms de l'élément à insérer.</val>
+        <val lang="ja_JP">挿入する要素の名前空間。</val>
+        <val lang="nl_NL">De namespace van het in te voegen element.</val>
+    </key>
+    <key value="xr_insert_xpath_description">
+        <comment>XPath parameter description.</comment>
+        <val lang="en_US">The XPath expression that identifies the anchor nodes to which the new element is relative.</val>
+        <val lang="de_DE">XPath-Ausdruck, der die Verankerungsknoten bezeichnet, auf die sich das neue Element bezieht.</val>
+        <val lang="fr_FR">L'expression XPath identifiant les noeuds d'ancrage auxquels le nouvel élément est relatif.</val>
+        <val lang="ja_JP">新規要素が相対であるアンカー ノードを特定する XPath 式。</val>
+        <val lang="nl_NL">De XPath-expressie die de bij het nieuwe element behorende ankernodes identificeert.</val>
+    </key>
+    <key value="xr_rename_attribute">
+        <comment>Rename attribute operation name.</comment>
+        <val lang="en_US">Rename attribute</val>
+        <val lang="de_DE">Attribut umbenennen</val>
+        <val lang="fr_FR">Renommer un attribut</val>
+        <val lang="ja_JP">属性を名称変更します</val>
+        <val lang="nl_NL">De naam van een attribuut wijzigen</val>
+    </key>
+    <key value="xr_rename_attribute_description">
+        <comment>Rename attribute operation description.</comment>
+        <val lang="en_US">Renames an attribute.</val>
+        <val lang="de_DE">Benennt ein Attribut um.</val>
+        <val lang="fr_FR">Renomme un attribut.</val>
+        <val lang="ja_JP">属性を名称変更します。</val>
+        <val lang="nl_NL">Wijzigt de naam van een attribuut.</val>
+    </key>
+    <key value="xr_rename_attribute_parameters_description">
+        <comment>Rename attribute parameters description.</comment>
+        <val lang="en_US">Specify the element that contains the attribute to be renamed and the new name of the attribute.</val>
+        <val lang="de_DE">Das Element spezifizieren, das das umzubenennende Attribut oder den neuen Namen des Attributs enthält.</val>
+        <val lang="fr_FR">Indiquer l'élément qui contient l'attribut à renommer ainsi que le nouveau nom de l'attribut.</val>
+        <val lang="ja_JP">名称変更する属性、または、新しい属性名をふくむ要素を指定します。</val>
+        <val lang="nl_NL">Specificeer het element dat het attribuut waarvan de naam moet worden gewijzigd bevat en de nieuwe naam van het attribuut.</val>
+    </key>
+    <key value="xr_rename_attribute_local_name_description">
+        <comment>Attribute local name parameter description.</comment>
+        <val lang="en_US">The local name of the attribute to be renamed.</val>
+        <val lang="de_DE">Lokaler Name des umzubenennenden Attributs.</val>
+        <val lang="fr_FR">Le nom local de l'attribut à renommer.</val>
+        <val lang="ja_JP">名称変更する属性のローカル名。</val>
+        <val lang="nl_NL">De lokale naam van het attribuut waarvan de naam moet worden gewijzigd.</val>
+    </key>
+    <key value="xr_rename_attribute_namespace_description">
+        <comment>Attribute namespace parameter description.</comment>
+        <val lang="en_US">The namespace of the attribute to be renamed.</val>
+        <val lang="de_DE">Namensraum des umzubenennenden Attributs.</val>
+        <val lang="fr_FR">L'espace de noms de l'attribut à renommer.</val>
+        <val lang="ja_JP">名称変更する属性の名前空間。</val>
+        <val lang="nl_NL">De namespace van het attribuut waarvan de naam moet worden gewijzigd.</val>
+    </key>
+    <key value="xr_new_local_name">
+        <comment>New local name parameter.</comment>
+        <val lang="en_US">New local name</val>
+        <val lang="de_DE">Neuer lokaler Name</val>
+        <val lang="fr_FR">Nouveau nom local</val>
+        <val lang="ja_JP">新規ローカル名</val>
+        <val lang="nl_NL">Nieuwe lokale naam</val>
+    </key>
+    <key value="xr_rename_attribute_new_local_name_description">
+        <comment>New local name parameter description.</comment>
+        <val lang="en_US">The new local name of the attribute.</val>
+        <val lang="de_DE">Der neue lokale Name des Attributs.</val>
+        <val lang="fr_FR">Le nouveau nom local de l'attribut.</val>
+        <val lang="ja_JP">属性の新規ローカル名。</val>
+        <val lang="nl_NL">De nieuwe lokale naam van het attribuut.</val>
+    </key>
+    <key value="xr_rename_element_description">
+        <comment>Rename element operation description.</comment>
+        <val lang="en_US">Renames one or more elements.</val>
+        <val lang="de_DE">Benennt ein oder mehrere Elemente um.</val>
+        <val lang="fr_FR">Renomme un ou plusieurs élément(s).</val>
+        <val lang="ja_JP">一つ以上の要素を名称変更します。</val>
+        <val lang="nl_NL">Wijzigt de naam van één of meer elementen.</val>
+    </key>
+    <key value="xr_rename_element_parameters_description">
+        <comment>Rename element operation parameters description.</comment>
+        <val lang="en_US">Specify an XPath expression that identifies one or more elements to be renamed.</val>
+        <val lang="de_DE">XPath Ausdruck spezifizieren, der ein oder mehrere umzubenennende Elemente bezeichnet.</val>
+        <val lang="fr_FR">Indiquer une expression XPath identifiant un ou plusieurs élément(s) à renommer.</val>
+        <val lang="ja_JP">名称変更する一つ以上の要素を特定する XPath 式を指定します。</val>
+        <val lang="nl_NL">Specificeer een XPath-expressie die één of meer elementen waarvan de naam moet worden gewijzigd identificeert.</val>
+    </key>
+    <key value="xr_rename_element_xpath_param_description">
+        <comment>XPath parameter description.</comment>
+        <val lang="en_US">The XPath expression that identifies one or more elements to be renamed.</val>
+        <val lang="de_DE">XPath Ausdruck, der ein oder mehrere umzubenennende Elemente bezeichnet.</val>
+        <val lang="fr_FR">L'expression XPath identifiant un ou plusieurs élément(s) à renommer.</val>
+        <val lang="ja_JP">名称変更する一つ以上の要素を特定する XPath 式。</val>
+        <val lang="nl_NL">De XPath-expressie die één of meer elementen waarvan de naam moet worden gewijzigd identificeert.</val>
+    </key>
+    <key value="xr_rename_element_new_local_name_param_description">
+        <comment>New local name parameter description.</comment>
+        <val lang="en_US">The new local name of the target elements.</val>
+        <val lang="de_DE">Der neue lokale Name der Zielelemente.</val>
+        <val lang="fr_FR">Le nouveau nom local des éléments ciblés.</val>
+        <val lang="ja_JP">ターゲット要素の新規ローカル名。</val>
+        <val lang="nl_NL">De nieuwe lokale naam van de doelelementen.</val>
+    </key>
+    <key value="xr_replace_element_content">
+        <comment>Replace element content with XML Fragment operation name.</comment>
+        <val lang="en_US">Replace element content with XML fragment</val>
+        <val lang="de_DE">Elementinhalt gegen XML-Fragment ersetzen</val>
+        <val lang="fr_FR">Remplacer un contenu d'élément par un fragment XML</val>
+        <val lang="ja_JP">要素の内容を XML フラグメントで置換します。</val>
+        <val lang="nl_NL">Elementinhoud door een XML-fragment vervangen</val>
+    </key>
+    <key value="xr_replace_element_content_description">
+        <comment>Replace element content with XML Fragment operation description.</comment>
+        <val lang="en_US">Replaces the content of one or more elements with an XML fragment.</val>
+        <val lang="de_DE">Ersetzt den Inhalt eines oder mehrerer Elemente gegen ein XML-Fragment.</val>
+        <val lang="fr_FR">Remplace le contenu d'un ou de plusieurs élément(s) par un fragment XML.</val>
+        <val lang="ja_JP">一つ以上の要素の内容を XML フラグメントで置換します。</val>
+        <val lang="nl_NL">Vervangt de inhoud van één of meer elementen door een XML-fragment.</val>
+    </key>
+    <key value="xr_replace_element_content_parameters_description">
+        <comment>Replace element content with XML Fragment parameters description.</comment>
+        <val lang="en_US">Specify an XPath expression that identifies one or more elements to replace their content.</val>
+        <val lang="de_DE">XPath Ausdruck spezifizieren, der ein oder mehrere zu ersetzende Elementinhalte bezeichnet.</val>
+        <val lang="fr_FR">Indiquer une expression XPath identifiant un ou plusieurs élément(s) pour lequel/lesquels le contenu doit être remplacé.</val>
+        <val lang="ja_JP">内容を置換する一つ以上の要素を特定する XPath 式を指定します。</val>
+        <val lang="nl_NL">Specificeer een XPath-expressie die één of meer elementen identificeert om hun inhoud te vervangen.</val>
+    </key>
+    <key value="xr_replace_element_content_xpath_param_description">
+        <comment>XPath parameter description.</comment>
+        <val lang="en_US">The XPath expression that identifies one or more elements to replace their content.</val>
+        <val lang="de_DE">XPath Ausdruck, der ein oder mehrere zu ersetzende Elementinhalte bezeichnet.</val>
+        <val lang="fr_FR">L'expression XPath identifiant un ou plusieurs élément(s) pour lequel/lesquels le contenu doit être remplacé.</val>
+        <val lang="ja_JP">内容を置換する一つ以上の要素を特定する XPath 式。</val>
+        <val lang="nl_NL">De XPath-expressie die één of meer elementen identificeert om hun inhoud te vervangen.</val>
+    </key>
+    <key value="xr_replace_element_content_xml_fragment_param_description">
+        <comment>XML Fragment parameter description.</comment>
+        <val lang="en_US">The XML fragment that will replace the content of the target elements.</val>
+        <val lang="de_DE">Das XML-Fragment, das den Inhalt der Zielelemente ersetzt.</val>
+        <val lang="fr_FR">Le fragment XML qui remplacera le contenu des éléments ciblés.</val>
+        <val lang="ja_JP">ターゲット要素の内容を置換する XML フラグメント。</val>
+        <val lang="nl_NL">Het XML-fragment dat de inhoud van de doelelementen zal vervangen.</val>
+    </key>
+    <key value="xr_replace_element">
+        <comment>Replace element with XML fragment action name.</comment>
+        <val lang="en_US">Replace element with XML fragment</val>
+        <val lang="de_DE">Element gegen XML-Fragment ersetzen</val>
+        <val lang="fr_FR">Remplacer un élément par un fragment XML</val>
+        <val lang="ja_JP">要素を XML フラグメントで置換します</val>
+        <val lang="nl_NL">Een element door een XML-fragment vervangen</val>
+    </key>
+    <key value="xr_replace_element_description">
+        <comment>Replace element with XML fragment action description.</comment>
+        <val lang="en_US">Replaces one or more elements with an XML fragment.</val>
+        <val lang="de_DE">Ersetzt ein oder mehrere Elemente gegen ein XML-Fragment.</val>
+        <val lang="fr_FR">Remplacer un ou plusieurs élément(s) par un fragment XML.</val>
+        <val lang="ja_JP">一つ以上の要素を XML フラグメントで置換します。</val>
+        <val lang="nl_NL">Vervangt één of meer elementen door een XML-fragment.</val>
+    </key>
+    <key value="xr_replace_element_parameters_description">
+        <comment>Replace element with XML fragment parameters description.</comment>
+        <val lang="en_US">Specify an XPath expression that identifies one or more elements to be replaced.</val>
+        <val lang="de_DE">XPath Ausdruck spezifizieren, der ein oder mehrere zu ersetzende Elemente bezeichnet.</val>
+        <val lang="fr_FR">Indiquer une expression XPath identifiant un ou plusieurs éléments à remplacer.</val>
+        <val lang="ja_JP">置換する一つ以上の要素を特定する XPath 式を指定します。</val>
+        <val lang="nl_NL">Specificeer een XPath-expressie die één of meer te vervangen elementen identificeert.</val>
+    </key>
+    <key value="xr_replace_element_xpath_param_description">
+        <comment>XPath parameter description.</comment>
+        <val lang="en_US">The XPath expression that identifies one or more elements to be replaced.</val>
+        <val lang="de_DE">XPath Ausdruck, der ein oder mehrere zu ersetzende Elemente bezeichnet.</val>
+        <val lang="fr_FR">L'expression XPath identifiant un ou plusieurs éléments à remplacer.</val>
+        <val lang="ja_JP">置換する一つ以上の要素を特定する XPath 式。</val>
+        <val lang="nl_NL">De XPath-expressie die één of meer te vervangen elementen identificeert.</val>
+    </key>
+    <key value="xr_replace_element_xml_fragment_param_description">
+        <comment>XML fragment parameter description.</comment>
+        <val lang="en_US">The XML fragment that will replace the target elements.</val>
+        <val lang="de_DE">Das XML-Fragment, das die Zielelemente ersetzt.</val>
+        <val lang="fr_FR">Le fragment XML qui remplacera les éléments ciblés.</val>
+        <val lang="ja_JP">ターゲット要素を置換する XML フラグメント。</val>
+        <val lang="nl_NL">Het XML-fragment dat de doelelementen zal vervangen.</val>
+    </key>
+    <key value="xr_unwrap_element">
+        <comment>Unwrap element operation name.</comment>
+        <val lang="en_US">Unwrap element</val>
+        <val lang="de_DE">Element auspacken</val>
+        <val lang="fr_FR">Débaliser un élement</val>
+        <val lang="ja_JP">要素をラップ解除します</val>
+        <val lang="nl_NL">Element uitpakken</val>
+    </key>
+    <key value="xr_unwrap_element_description">
+        <comment>Unwrap element operation description.</comment>
+        <val lang="en_US">Deletes the tags of one or more elements, but preserves their content.</val>
+        <val lang="de_DE">Löscht die Tags eines oder mehrerer Elemente, aber behält deren Inhalt bei.</val>
+        <val lang="fr_FR">Supprime les balises d'un ou de plusieurs élément(s), mais conserve son/leur contenu.</val>
+        <val lang="ja_JP">一つ以上の要素のタグを削除しますが、それらの内容を維持します。</val>
+        <val lang="nl_NL">Verwijdert de tags van één of meer elementen, maar behoudt hun inhoud.</val>
+    </key>
+    <key value="xr_unwrap_element_parameters_description">
+        <comment>Unwrap element operation parameters description.</comment>
+        <val lang="en_US">Specify an XPath expression that identifies one or more elements to be unwrapped.</val>
+        <val lang="de_DE">XPath Ausdruck spezifizieren, der ein oder mehrere auszupackende Elemente bezeichnet.</val>
+        <val lang="fr_FR">Indiquer une expression XPath identifiant un ou plusieurs élément(s) à débaliser.</val>
+        <val lang="ja_JP">ラップ解除する一つ以上の要素を特定する XPath 式を指定します。</val>
+        <val lang="nl_NL">Specificeer een XPath-expressie die één of meer uit te pakken elementen identificeert.</val>
+    </key>
+    <key value="xr_unwrap_element_xpath_param_description">
+        <comment>XPath parameter description.</comment>
+        <val lang="en_US">The XPath expression that identifies one or more elements to be unwrapped.</val>
+        <val lang="de_DE">XPath Ausdruck, der ein oder mehrere auszupackende Elemente bezeichnet.</val>
+        <val lang="fr_FR">L'expression XPath identifiant un ou plusieurs élément(s) à débaliser.</val>
+        <val lang="ja_JP">ラップ解除する一つ以上の要素を特定する XPath 式。</val>
+        <val lang="nl_NL">De XPath-expressie die één of meer uit te pakken elementen identificeert.</val>
+    </key>
+    <key value="xr_wrap_element">
+        <comment>Wrap element operation name.</comment>
+        <val lang="en_US">Wrap element</val>
+        <val lang="de_DE">Element einpacken</val>
+        <val lang="fr_FR">Baliser un élément</val>
+        <val lang="ja_JP">要素をラップします</val>
+        <val lang="nl_NL">Element inpakken</val>
+    </key>
+    <key value="xr_wrap_element_description">
+        <comment>Wrap element operation description.</comment>
+        <val lang="en_US">Surrounds one or more elements with another one.</val>
+        <val lang="de_DE">Umgibt ein oder mehrere Elemente mit einem anderen.</val>
+        <val lang="fr_FR">Encadre un ou plusieurs élément(s) avec un autre élément.</val>
+        <val lang="ja_JP">一つ以上の要素を別の要素で囲みます。</val>
+        <val lang="nl_NL">Plaats één of meer elementen in een ander element.</val>
+    </key>
+    <key value="xr_wrap_element_parameters_description">
+        <comment>Wrap element operation parameters description.</comment>
+        <val lang="en_US">Specify an XPath expression that identifies one or more elements to be wrapped.</val>
+        <val lang="de_DE">XPath Ausdruck spezifizieren, der ein oder mehrere einzupackende Elemente bezeichnet.</val>
+        <val lang="fr_FR">Indiquer une expression XPath identifiant un ou plusieurs élément(s) à baliser.</val>
+        <val lang="ja_JP">ラップ解除する一つ以上の要素を特定する XPath 式を指定します。</val>
+        <val lang="nl_NL">Specificeer een XPath-expressie die één of meer in te pakken elementen identificeert.</val>
+    </key>
+    <key value="xr_wrap_element_xpath_param_description">
+        <comment>XPath parameter description.</comment>
+        <val lang="en_US">The XPath expression that identifies one or more elements to be wrapped.</val>
+        <val lang="de_DE">XPath Ausdruck, der ein oder mehrere einzupackende Elemente bezeichnet.</val>
+        <val lang="fr_FR">L'expression XPath identifiant un ou plusieurs élément(s) à baliser.</val>
+        <val lang="ja_JP">ラップ解除する一つ以上の要素を特定する XPath 式。</val>
+        <val lang="nl_NL">De XPath-expressie die één of meer in te pakken elementen identificeert.</val>
+    </key>
+    <key value="xr_wrapper_element">
+        <comment>Wrapper element section name.</comment>
+        <val lang="en_US">Wrapper element</val>
+        <val lang="de_DE">Einpackelement</val>
+        <val lang="fr_FR">Balise encadrante</val>
+        <val lang="ja_JP">ラッパー要素</val>
+        <val lang="nl_NL">Inpakelement</val>
+    </key>
+    <key value="xr_wrap_element_local_name_param_description">
+        <comment>Element local name parameter description.</comment>
+        <val lang="en_US">The local name of the element that will surround the target elements.</val>
+        <val lang="de_DE">Der lokale Name des Elements, das die Zielelemente umgibt.</val>
+        <val lang="fr_FR">Le nom local de l'élément qui encadrera les éléments ciblés.</val>
+        <val lang="ja_JP">ターゲット要素を囲む要素のローカル名。</val>
+        <val lang="nl_NL">De lokale naam van het element waarin de doelelementen worden geplaatst.</val>
+    </key>
+    <key value="xr_wrap_element_namespace_param_description">
+        <comment>Element namespace parameter description.</comment>
+        <val lang="en_US">The namespace of the element that will surround the target elements.</val>
+        <val lang="de_DE">Der Namensraum des Elements, das die Zielelemente umgibt.</val>
+        <val lang="fr_FR">L'espace de noms de l'élément qui encadrera les éléments ciblés.</val>
+        <val lang="ja_JP">ターゲット要素を囲む要素の名前空間。</val>
+        <val lang="nl_NL">De namespace van het element waarin de doelelementen worden geplaatst.</val>
+    </key>
+    <key value="xr_wrap_element_content">
+        <comment>Wrap element content operation name.</comment>
+        <val lang="en_US">Wrap element content</val>
+        <val lang="de_DE">Elementinhalt einpacken</val>
+        <val lang="fr_FR">Baliser le contenu d'un élément</val>
+        <val lang="ja_JP">要素の内容をラップします</val>
+        <val lang="nl_NL">Inpakelement voor inhoud</val>
+    </key>
+    <key value="xr_wrap_element_content_description">
+        <comment>Wrap element content operation description.</comment>
+        <val lang="en_US">Surrounds the content of one or more elements with another one.</val>
+        <val lang="de_DE">Umgibt den Inhalt eines oder mehrerer Elemente mit einem anderen.</val>
+        <val lang="fr_FR">Encadre le contenu d'un ou de plusieurs élément(s) avec un autre élément.</val>
+        <val lang="ja_JP">一つ以上の要素の内容を別の要素で囲みます。</val>
+        <val lang="nl_NL">Plaats de inhoud van één of meer elementen in een ander element.</val>
+    </key>
+    <key value="xr_wrap_element_content_parameters_description">
+        <comment>Wrap element content parameters description.</comment>
+        <val lang="en_US">Specify an XPath expression that identifies one or more elements to wrap their content.</val>
+        <val lang="de_DE">XPath Ausdruck spezifizieren, der ein oder mehrere einzupackende Elementinhalte bezeichnet.</val>
+        <val lang="fr_FR">Indiquer une expression XPath identifiant un ou plusieurs élément(s) dont le contenu doit être balisé.</val>
+        <val lang="ja_JP">内容をラップする一つ以上の要素を特定する XPath 式を指定します。</val>
+        <val lang="nl_NL">Specificeer een XPath-expressie die één of meer elementen waarvan de inhoud moet worden ingepakt identificeert.</val>
+    </key>
+    <key value="xr_wrap_element_content_xpath_param_description">
+        <comment>XPath parameter description.</comment>
+        <val lang="en_US">The XPath expression that identifies one or more elements to wrap their content.</val>
+        <val lang="de_DE">XPath Ausdruck, der ein oder mehrere einzupackende Elementinhalte bezeichnet.</val>
+        <val lang="fr_FR">L'expression XPath identifiant un ou plusieurs élément(s) dont le contenu doit être balisé.</val>
+        <val lang="ja_JP">内容をラップする一つ以上の要素を特定する XPath 式。</val>
+        <val lang="nl_NL">De XPath-expressie die één of meer elementen waarvan de inhoud moet worden ingepakt identificeert.</val>
+    </key>
+    <key value="xr_wrap_element_content_local_name_param_description">
+        <comment>Element local name parameter description.</comment>
+        <val lang="en_US">The local name of the element that will surround the content of the target elements.</val>
+        <val lang="de_DE">Der lokale Name des Elements, das die Zielelemente umgibt.</val>
+        <val lang="fr_FR">Le nom local de l'élément qui encadrera le contenu des éléments ciblés.</val>
+        <val lang="ja_JP">ターゲット要素を囲む要素のローカル名。</val>
+        <val lang="nl_NL">De lokale naam van het element waarin de doelelementen worden geplaatst.</val>
+    </key>
+    <key value="xr_wrap_element_content_namespace_param_description">
+        <comment>Element namespace parameter description.</comment>
+        <val lang="en_US">The namespace of the element that will surround the content of the target elements.</val>
+        <val lang="de_DE">Der Namensraum des Elements, das die Zielelemente umgibt.</val>
+        <val lang="fr_FR">L'espace de noms de l'élément qui encadrera le contenu des éléments ciblés.</val>
+        <val lang="ja_JP">ターゲット要素を囲む要素の名前空間。</val>
+        <val lang="nl_NL">De namespace van het element waarin de doelelementen worden geplaatst.</val>
+    </key>
+</translation>
